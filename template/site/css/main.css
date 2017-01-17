@@ -1,0 +1,22 @@
+body {
+	display: flex
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	
+	
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+
+}
