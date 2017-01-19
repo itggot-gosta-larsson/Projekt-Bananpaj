@@ -61,7 +61,7 @@ footer {
 .bild {
 	margin-bottom: 5px;
 }
-@media all and (min-device-width: 600px) {
+@media all and (max-device-width: 600px) {
   aside {
 	  display: none;
   }
