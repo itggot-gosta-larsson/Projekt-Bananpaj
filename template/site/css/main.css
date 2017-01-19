@@ -1,8 +1,7 @@
 body {
-	display: flex
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 	background-color: red;
 	
 	
@@ -11,6 +10,10 @@ body {
 article {
 	display: flex;
 	flex-direction: column;
+	background-color: hotpink;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
 
 	
 }
@@ -19,4 +22,39 @@ nav {
 	display: flex;
 	flex-direction: row;
 
+}
+aside {
+	background-color: aqua;
+	max-width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+.meny {
+	text-decoration: none;
+	color: lawngreen;
+	padding: 5px;
+	margin: 10px;
+	background-color: black;
+}
+.post {
+	border-bottom: blueviolet 2px dashed;
+	border-top: blueviolet 2px dashed;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px;
+}
+main {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: ghostwhite;
+}
+footer {
+	background-color: purple;
+	border: groove limegreen 1px;
+	padding: 10px;
+	margin: 10px;
 }
