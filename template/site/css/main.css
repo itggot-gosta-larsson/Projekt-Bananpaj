@@ -54,7 +54,10 @@ main {
 }
 footer {
 	background-color: purple;
-	border: groove limegreen 1px;
+	border: limegreen 1px dashed;
 	padding: 10px;
 	margin: 10px;
+}
+.bild {
+	margin-bottom: 5px;
 }
